@@ -1,0 +1,43 @@
+.each-country {
+  margin: 20px;
+}
+
+.each-image {
+  width: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-image {
+  width: 100%;
+}
+
+.country-name-button {
+  width: 430px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #1f1f2f;
+}
+
+.country-name-text {
+  font-family: 'Roboto';
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+.remove-button {
+  background-color: transparent;
+  padding: 7px 18px 7px 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-right: 30px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #94a3b8;
+}
